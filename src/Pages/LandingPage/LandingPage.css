@@ -1,0 +1,129 @@
+.LandingPage {
+  background-position: center !important;
+  padding: 20px 170px 0 170px;
+  object-fit: cover;
+}
+.BeautifulHomes {
+  color: white;
+  font-size: 80px;
+  font-weight: 460;
+  line-height: 1;
+  width: 50%;
+  margin-top: 76px;
+}
+.BeautifulHomesDesc {
+  color: #bababa;
+  font-size: 22px;
+  margin-top: 32px;
+  width: 50%;
+}
+@media (max-width: 750px) {
+  .BeautifulHomes {
+    width: 100%;
+  }
+  .BeautifulHomesDesc {
+    width: 100%;
+  }
+}
+.ListingsDiv {
+  background-color: #fff;
+  margin-top: 110px;
+  padding: 30px 70px 30px 70px;
+}
+.ListingsDiv-2 {
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.ListingsColumn {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  margin-left: 0px;
+}
+.ListingText {
+  color: #000;
+  letter-spacing: -0.5px;
+  white-space: nowrap;
+  font: 700 20px "DM Sans", sans-serif;
+}
+.ListingsColumn-2 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  margin-left: 16px;
+}
+.ListingImg {
+  aspect-ratio: 2;
+  object-fit: auto;
+  object-position: center;
+  width: 24px;
+}
+.PlacesToLive {
+  background: #f5f5f5;
+  padding: 80px 100px;
+}
+@media (max-width: 991px){
+  .PlacesToLive {
+    padding: 80px 30px;
+  }
+}
+@media (max-width: 450px){
+  .BeautifulHomes{
+    font-size: 60px;
+  }
+}
+.YellowBlackGradient-1 {
+  background: linear-gradient(to right, #ffac12, black);
+  height: 3px;
+  width: 100px;
+  flex-grow: 1;
+}
+.PlaesToLiveHead {
+  letter-spacing: -1.26px;
+  margin-top: 8px;
+  font: 50px "DM Sans", sans-serif;
+  font-weight: 550;
+}
+.HouseCardsFlex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  gap: 56px 20px;
+}
+.GradientBlack {
+  background: linear-gradient(
+    225.52deg,
+    #271a00 0.45%,
+    rgba(0, 0, 0, 0.982162) 100.47%
+  );
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  align-items: center;
+  padding: 120px 20px;
+}
+.GradientFlex{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 26px;
+  color: white;
+  max-width: 600px;
+}
+.GradientHeading{
+  font: 50px "DM Sans", sans-serif;
+  font-weight: 550;
+  text-align: center;
+}
+.GradientContent{
+  font: 20px "DM Sans", sans-serif;
+  text-align: center;
+}
+.Reviews{
+  display: flex;
+  gap: 26px;
+  flex-wrap: wrap;
+  padding: 120px 80px 210px 80px;
+}

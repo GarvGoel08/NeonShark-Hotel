@@ -1,0 +1,496 @@
+
+.PropertyMain {
+    align-self: center;
+    display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 20px;
+  }
+  @media (max-width: 991px) {
+    .PropertyMain {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .UpperDiv{
+    padding: 20px 50px;
+    background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
+  }
+  .PropertyMain-2 {
+    align-self: stretch;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      max-width: 100%;
+    }
+  }
+  .PropertyImage {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .PropertyImage {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .PropertyImageColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 57%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .PropertyImageColumn {
+      width: 100%;
+    }
+  }
+  .PropertyMainImg {
+    aspect-ratio: 1.35;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+    flex-grow: 1;
+  }
+  @media (max-width: 991px) {
+    .PropertyMainImg {
+      max-width: 100%;
+      margin-top: 23px;
+    }
+  }
+  .Property-Info {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 43%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .Property-Info {
+      width: 100%;
+    }
+  }
+  .Property-Info-2 {
+    border-radius: 25px;
+    box-shadow: 0px 32px 34px 0px rgba(0, 0, 0, 0.13);
+    background-color: #fff;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 20px;
+  }
+  @media (max-width: 991px) {
+    .Property-Info-2 {
+      max-width: 100%;
+      margin-top: 23px;
+    }
+  }
+  .Property-Profile {
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 15px 80px 15px 17px;
+  }
+  @media (max-width: 991px) {
+    .Property-Profile {
+      max-width: 100%;
+      flex-wrap: wrap;
+      padding-right: 20px;
+    }
+  }
+  .Property-Profile-Image {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 40px;
+  }
+  .Property-Profile-Content {
+    align-self: start;
+    display: flex;
+    margin-top: 5px;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+  }
+  .Property-Profile-Name {
+    color: #000;
+    letter-spacing: -0.38px;
+    font: 400 15px DMSans, sans-serif;
+  }
+  .Property-Profile-View {
+    color: #ffac12;
+    letter-spacing: -0.33px;
+    margin-top: 8px;
+    font: 700 13px DMSans, sans-serif;
+  }
+  .Property-Profile-Input {
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: start;
+    color: #000;
+    white-space: nowrap;
+    letter-spacing: -0.38px;
+    padding: 25px 60px 25px 20px;
+    font: 400 15px DMSans, sans-serif;
+  }
+  .Property-Profile-Input::placeholder{
+    color: black;
+  }
+  @media (max-width: 991px) {
+    .Property-Profile-Input {
+      max-width: 100%;
+      padding-right: 20px;
+      white-space: initial;
+    }
+  }
+  .Property-Profile-Input-1 {
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+    margin-top: 10px;
+    align-items: start;
+    color: #000;
+    letter-spacing: -0.38px;
+    padding: 24px 60px 63px 20px;
+    font: 400 15px DMSans, sans-serif;
+  }
+  .Property-Profile-Input-1::placeholder{
+    color: black;
+  }
+  @media (max-width: 991px) {
+    .Property-Profile-Input-1 {
+      max-width: 100%;
+      padding-right: 20px;
+    }
+  }
+  .Property-Learn {
+    border-radius: 0px 18px 0px 0px;
+    background-color: #000;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -0.43px;
+    padding: 29px 80px;
+    border: 0;
+    cursor: pointer;
+  }
+  @media (max-width: 991px) {
+    .Property-Learn {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+  .Property-Learn-text {
+    font-family: DMSans, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+  }
+  .Property-Learn-Arrow {
+    aspect-ratio: 2;
+    object-fit: auto;
+    object-position: center;
+    width: 20px;
+  }
+  .House-Images {
+    display: flex;
+    margin-top: 20px;
+    width: 704px;
+    max-width: 100%;
+    overflow-x: auto;
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .House-Image {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    max-width: 120px;
+    flex: 1;
+  }
+  .img-5 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+    flex: 1;
+  }
+  .Property-Details-Div {
+    border-radius: 25px;
+    box-shadow: 0px 32px 34px 0px rgba(0, 0, 0, 0.13);
+    background-color: #fff;
+    display: flex;
+    margin-top: 40px;
+    width: 704px;
+    max-width: 100%;
+    padding-top: 36px;
+    flex-direction: column;
+    color: #000;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  @media (max-width: 991px) {
+    .Property-Details-Div {
+      white-space: initial;
+    }
+  }
+  .Property-Details {
+    letter-spacing: -0.5px;
+    align-self: start;
+    margin-left: 30px;
+    font: 20px DMSans, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .Property-Details {
+      margin-left: 10px;
+    }
+  }
+  .Property-Details-Sep {
+    background-color: #e4e4e4;
+    margin-top: 36px;
+    height: 1px;
+  }
+  @media (max-width: 991px) {
+    .Property-Details-Sep {
+      max-width: 100%;
+    }
+  }
+  .Property-Details-Bottom {
+    align-self: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 17px;
+    letter-spacing: -0.43px;
+    justify-content: center;
+
+  }
+  @media (max-width: 991px) {
+    .Property-Details-Bottom {
+      flex-wrap: wrap;
+      white-space: initial;
+    }
+  }
+  .Property-Details-Feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    border-left: #e4e4e4 1px solid;
+    gap: 10px;
+    height: 60px;
+  }
+  @media (max-width: 991px) {
+    .Property-Details-Feature {
+      white-space: initial;
+    }
+  }
+  .Property-Details-Img {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 16px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .Property-Details-Q {
+    font-family: DMSans, sans-serif;
+    align-self: stretch;
+    margin: auto 0;
+  }
+ .Property-Description {
+    border-radius: 25px;
+    box-shadow: 0px 32px 34px 0px rgba(0, 0, 0, 0.13);
+    background-color: #fff;
+    display: flex;
+    margin-top: 40px;
+    width: 704px;
+    max-width: 100%;
+    flex-direction: column;
+    color: #000;
+    padding: 35px 0;
+  }
+  .Property-Description-Head {
+    letter-spacing: -0.5px;
+    align-self: start;
+    margin-left: 30px;
+    font: 700 20px DMSans, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .Property-Description-Head {
+      margin-left: 10px;
+    }
+  }
+  .Property-Description-Sep {
+    background-color: #e4e4e4;
+    margin-top: 32px;
+    height: 1px;
+  }
+  @media (max-width: 991px) {
+    .Property-Description-Sep {
+      max-width: 100%;
+    }
+  }
+  .Property-Description-Content {
+    letter-spacing: -0.38px;
+    align-self: center;
+    margin-top: 40px;
+    padding: 0 30px;
+    font: 400 15px/22px DMSans, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .Property-Description-Content {
+      max-width: 100%;
+    }
+  }
+  .property-Features-Div {
+    border-radius: 25px;
+    box-shadow: 0px 32px 34px 0px rgba(0, 0, 0, 0.13);
+    background-color: #fff;
+    display: flex;
+    margin-top: 40px;
+    width: 704px;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 35px 0;
+  }
+  .Property-Features-Head {
+    color: #000;
+    letter-spacing: -0.5px;
+    align-self: start;
+    margin-left: 30px;
+    font: 700 20px DMSans, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .Property-Features-Head {
+      margin-left: 10px;
+    }
+  }
+  .Property-Features-Sep {
+    background-color: #e4e4e4;
+    margin-top: 36px;
+    height: 1px;
+  }
+  @media (max-width: 991px) {
+    .Property-Features-Sep {
+      max-width: 100%;
+    }
+  }
+  .Property-Features-Div-1 {
+    align-self: center;
+    margin-top: 33px;
+    width: 643px;
+    max-width: 100%;
+  }
+  .Property-Features-Div-2 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .Property-Features-Div-2 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .Property-Feature {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 37%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .Property-Feature {
+      width: 100%;
+    }
+  }
+  .Property-Feature-1 {
+    display: flex;
+    gap: 26px;
+    flex-grow: 1;
+    flex-direction: column;
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+    white-space: nowrap;
+    letter-spacing: -0.38px;
+    line-height: 147%;
+  }
+  @media (max-width: 991px) {
+    .Property-Feature-1 {
+      margin-top: 40px;
+      white-space: initial;
+    }
+  }
+  .Property-Feature-Main {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  @media (max-width: 991px) {
+    .Property-Feature-Main {
+      white-space: initial;
+    }
+  }
+  .Property-Feature-Img {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 16px;
+  }
+  .Property-Feature-Text {
+    font-family: DMSans, sans-serif;
+    flex-grow: 1;
+  }
+  @media (max-width: 991px) {
+    .Property-Feature-Text {
+      white-space: initial;
+    }
+  }
+  .Property-Gradient-Position {
+    aspect-ratio: 50;
+    object-fit: auto;
+    object-position: center;
+    width: 169px;
+    margin-top: 150px;
+    max-width: 100%;
+  }
+  @media (max-width: 991px) {
+    .Property-Gradient-Position {
+      margin-top: 40px;
+    }
+  }
+  .Property-Similar-Head {
+    color: #000;
+    letter-spacing: -1.26px;
+    align-self: stretch;
+    margin-top: 31px;
+    font: 700 50px DMSans, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .Property-Similar-Head {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  }
+  .Property-Similar-HouseCrads {
+    display: flex;
+    overflow-x: auto;
+    max-width: 100%;
+    margin-top: 100px;
+    gap: 56px 20px;
+    padding-bottom: 150px;
+  }

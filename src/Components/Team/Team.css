@@ -1,0 +1,120 @@
+.TeamDiv {
+  margin-top: 60px;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .TeamDiv {
+    max-width: 100%;
+  }
+}
+.TeamDiv-2 {
+  gap: 20px;
+  margin-right: 100px;
+  display: flex;
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .TeamDiv-2 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
+.TeamImgDiv {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 50%;
+  margin-left: 0px;
+}
+@media (max-width: 991px) {
+  .TeamImgDiv {
+    width: 100%;
+  }
+}
+.YellowBlackGradient {
+  background: linear-gradient(to right, #ffac12, black);
+  height: 3px;
+  width: 40%;
+  flex-grow: 1;
+}
+@media (max-width: 991px) {
+  .TeamImg {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.TeamContent {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 50%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .TeamContent {
+    width: auto;
+  }
+}
+.TeamContentDiv-1 {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  color: #000;
+  font-weight: 700;
+  margin: auto 0;
+  padding: 0 20px;
+}
+@media (max-width: 991px) {
+  .TeamContentDiv-1 {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.TeamContentDiv-2 {
+  letter-spacing: -1.26px;
+  margin-top: 31px;
+  font: 50px "DM Sans", sans-serif;
+  font-weight: 550;
+}
+@media (max-width: 991px) {
+  .TeamContentDiv-2 {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+.TeamContentDiv-3 {
+  letter-spacing: -0.5px;
+  margin-top: 30px;
+  font: 400 20px/28px "DM Sans", -apple-system, Roboto, Helvetica, sans-serif;
+}
+@media (max-width: 991px) {
+  .TeamContentDiv-3 {
+    max-width: 100%;
+  }
+}
+.LearnMoreMain {
+  border-radius: 0px 18px 0px 0px;
+  background-color: #000;
+  align-self: start;
+  display: flex;
+  margin-top: 33px;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 17px;
+  color: #fff;
+  letter-spacing: -0.43px;
+  padding: 29px 80px;
+}
+
+.LearnMore {
+  font-family: "DM Sans", sans-serif;
+  flex-grow: 1;
+  flex-basis: auto;
+}
+.LearnMoreArrow {
+  aspect-ratio: 2;
+  object-fit: auto;
+  object-position: center;
+  width: 20px;
+}

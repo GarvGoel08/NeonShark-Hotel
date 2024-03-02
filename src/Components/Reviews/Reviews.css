@@ -1,0 +1,96 @@
+.Reviewss {
+  flex-basis: calc(33.33% - 26px); 
+  max-width: calc(33.33% - 26px); 
+}
+
+@media (max-width: 1010px) {
+  .Reviewss {
+    flex-basis: calc(50% - 26px); 
+    max-width: calc(50% - 26px); 
+  }
+}
+@media (max-width: 450px){
+  .Reviews{
+    padding: 120px 10px 60px 10px;
+  }
+}
+
+@media (max-width: 820px) {
+  .Reviewss {
+    flex-basis: 100%; 
+    max-width: 100%;
+  }
+}
+
+.ReviewDiv {
+  background-color: white;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 15px;
+  white-space: nowrap;
+  padding: 46px 80px 46px 40px;
+  transition: background-color 0.9s ease-in-out;
+}
+
+.Reviewss:hover .ReviewDiv {
+  background-color: black;
+}
+
+.Reviewss:hover .ReviewDiv-3 {
+  color: white;
+}
+.Reviewss:hover .ReviewText {
+  visibility: visible;
+  max-height: 2000px;
+}
+
+
+.ReviewImg {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 49px;
+}
+
+.ReviewDiv-2 {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0%;
+  flex-direction: column;
+  margin: auto 0;
+}
+
+.ReviewDiv-3 {
+  color: black;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+
+.ReviewDiv-4 {
+  color: #979797;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+.ReviewText {
+  margin-bottom: 58px;
+  max-height: 0; 
+  visibility: hidden;
+  transition: max-height 0.9s ease-in-out; 
+}
+
+.YellowBlackGradient-2 {
+  background: linear-gradient(to right, #ffac12, black);
+  height: 3px;
+  width: 100%;
+  margin-bottom: 56px;
+  flex-grow: 1;
+}
+
+.ReviewContent {
+  font: 700 24px "DM Sans", sans-serif;
+  text-wrap: wrap;
+}

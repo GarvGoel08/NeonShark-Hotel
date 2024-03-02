@@ -1,0 +1,106 @@
+.HouseCard {
+  border-radius: 32px;
+  box-shadow: 0px 32px 34px 0px rgba(0, 0, 0, 0.13);
+  background-color: #fff;
+  display: flex;
+  width: 400px;
+  flex-grow: 1;
+  flex-direction: column;
+  color: #000;
+  cursor: pointer;
+  font-weight: 700;
+  white-space: nowrap;
+  margin: 0 auto;
+}
+@media (max-width: 991px) {
+  .HouseCard {
+    margin-top: 31px;
+    white-space: initial;
+  }
+}
+.HouseCard-Img {
+  aspect-ratio: 1.27;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+}
+.HouseCard-Title {
+  letter-spacing: -0.6px;
+  align-self: start;
+  margin: 37px 0 0 30px;
+  font: 24px "DM Sans", sans-serif;
+  font-weight: 600;
+}
+@media (max-width: 991px) {
+  .HouseCard-Title {
+    margin-left: 10px;
+    white-space: initial;
+  }
+}
+.HouseCard-Divider {
+  background-color: #e4e4e4;
+  margin-top: 37px;
+  height: 1px;
+}
+.HouseCard-Details {
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 17px;
+  letter-spacing: -0.43px;
+}
+@media (max-width: 991px) {
+  .HouseCard-Details {
+    white-space: initial;
+  }
+}
+.HouseCard-Item {
+  display: flex;
+  gap: 10px;
+  margin: auto 0;
+}
+@media (max-width: 991px) {
+  .HouseCard-Item {
+    white-space: initial;
+  }
+}
+.HouseCard-Item img {
+  aspect-ratio: 1.41;
+  object-fit: auto;
+  object-position: center;
+  width: 14px;
+}
+.HouseCard-Item-Value {
+  font-family: "DM Sans", sans-serif;
+}
+.HouseCard-ItemContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+@media (max-width: 991px) {
+  .HouseCard-ItemContainer {
+    white-space: initial;
+  }
+}
+.HouseCard-ItemSeparator {
+  background-color: #e4e4e4;
+  align-self: stretch;
+  width: 1px;
+  height: 60px;
+}
+.HouseCard-Item img {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 16px;
+  align-self: stretch;
+  margin: auto 0;
+}
+.HouseCard-Item-Value {
+  font-family: "DM Sans", sans-serif;
+  align-self: stretch;
+  margin: auto 0;
+}
